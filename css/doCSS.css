@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 30, 2015, 3:34:42 PM
+    Author     : Mahesh Rathnayaka
+*/
+
+html {
+    color: black;
+}
+::-webkit-input-placeholder {
+    color: red; 
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: red;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: red;  
+}
+
+:-ms-input-placeholder {  
+    color: red;  
+}
+
+/**
+ * 
+ * Image upload box size
+ */
+.picedit_box {
+    min-width: 600px; max-width: 600px;
+    min-height: 400px; max-height: 400px;
+}
+.picedit_canvas_box{
+    background-color: #33691e;
+}
